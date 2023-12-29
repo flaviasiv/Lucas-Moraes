@@ -582,7 +582,7 @@ footer{
     font-weight: 600;
     text-transform: uppercase;
     white-space: nowrap;
-    width: 200px;
+    max-width: 200px;
 }
 .contactlink{
     display: flex;
@@ -674,7 +674,7 @@ footer{
         padding: 0;
     }
     .contact h6 {
-        max-width: 180px;
+        max-width: 120px;
         white-space: wrap;
         margin-bottom: 64px;
     }
@@ -690,7 +690,13 @@ footer{
         display: flex;
         position: relative;
         margin-bottom: 63px;
-    }
+        width: 100%;
+        max-width: 900px;
+}
+.contactlink p{
+    max-width: 850px;
+
+}
     .contactlink a{
         font-size: 12px;
         margin-top: 16px;
