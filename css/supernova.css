@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Neue';
     src: 
-    local('Neue');
-    src: url('../NEUEHAASDISPLAYBLACK.TTF') format('truetype');
+    local('Neue Haas Grotesk Display Pro');
+    src: url('../NeueHaasDisplay-Roman.ttf') format('truetype');
     src: url('../NHAASGROTESKTXPRO65MD.eot?#iefix') format('embedded-opentype'); 
-    src:url('../NHAASGROTESKTXPRO65MD.eot'),
-         url('../NHAASGROTESKTXPRO65MD.woff') format('woff'),
-         url('../NHAASGROTESKTXPRO65MD.woff2') format('woff2'),
-         url('../NHAASGROTESKTXPRO65MD.svg#NeueHaasGroteskDisplayPro') format('svg');
+    src:url('../NeueHaasDisplay-Roman.eot'),
+         url('../NeueHaasDisplay-Roman.woff') format('woff'),
+         url('../NeueHaasDisplay-Roman.woff2') format('woff2'),
+         url('../NeueHaasDisplay-Roman.svg') format('svg');
 }
 @font-face {
   font-family: 'CommitMono';
