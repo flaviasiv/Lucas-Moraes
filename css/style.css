@@ -364,10 +364,12 @@ margin-right: auto;
     margin: auto;
 }
 .workcard a {
+    color: #292929;
     text-decoration: none;
 }
 .workcard a button{
     cursor: pointer;
+    color: #292929;
     display: flex;
     padding: 8px 24px;
     width: 161px;
@@ -564,6 +566,7 @@ footer{
     padding: 36px 36px 0px;
 }
 .contact {
+    font-family: 'Neue', sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -716,7 +719,7 @@ footer{
         padding: 0;
     }
     .contact h6 {
-        max-width: 120px;
+        width: 110px;
         white-space: wrap;
         margin-bottom: 64px;
     }
