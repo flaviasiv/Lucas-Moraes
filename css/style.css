@@ -738,6 +738,7 @@ footer{
         margin-bottom: 63px;
         width: 100%;
         max-width: 900px;
+        padding: 0;
 }
     .contactlink p{
         max-width: 850px;

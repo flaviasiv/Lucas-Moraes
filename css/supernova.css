@@ -198,6 +198,8 @@ header{
     width: 100%;
     max-width: 1500px;
     margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 .aboutgrid {
     display: grid;
@@ -206,13 +208,14 @@ header{
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
-    margin: 60px auto;
+    margin: auto;
     padding-left: 50px;
     padding-right: 50px;
 }
 .about2{
     color: #909090;
     font-size: 12px;
+    margin-top: 64px;
 }
 #aboutgrid1{
     grid-template-columns: 1.8fr 0.2fr 1fr;
@@ -252,6 +255,15 @@ header{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+}
+#about2 h5{
+    font-family: 'CommitMono', sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
 }
 #aboutgrid1 p{
     grid-column-start: 3;
@@ -399,6 +411,9 @@ header{
     width: 100%;
     max-width: 9999px;
     margin: auto;
+}
+.frames1 .img1 {
+    margin-top: 110px;
 }
 swiper-container {
 margin-left: auto;
