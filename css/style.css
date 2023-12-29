@@ -582,7 +582,6 @@ footer{
     font-weight: 600;
     text-transform: uppercase;
     white-space: nowrap;
-    max-width: 200px;
 }
 .contactlink{
     display: flex;
@@ -682,6 +681,7 @@ footer{
         position: relative;
         display: flex;
         flex-direction: column;
+        white-space: wrap;
         height: 390px;
         padding-top: 100px;
         padding: 100px 24px;
@@ -693,10 +693,53 @@ footer{
         width: 100%;
         max-width: 900px;
 }
-.contactlink p{
-    max-width: 850px;
+    .contactlink p{
+        max-width: 850px;
 
+    }
+    .contactlink a{
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    .contactsocials{
+        position: relative;
+        top: 0px;
+    }
+    .signatureH {
+    font-size: 19vw;
+    padding: 0 20px;
+    margin-top: 230px;
+    }
 }
+@media screen and (max-width:790px) {
+    footer{
+        padding: 0;
+    }
+    .contact h6 {
+        max-width: 120px;
+        white-space: wrap;
+        margin-bottom: 64px;
+    }
+    .contact {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        white-space: wrap;
+        height: 390px;
+        padding-top: 100px;
+        padding: 100px 24px;
+    }
+    .contactlink{
+        display: flex;
+        position: relative;
+        margin-bottom: 63px;
+        width: 100%;
+        max-width: 900px;
+}
+    .contactlink p{
+        max-width: 850px;
+
+    }
     .contactlink a{
         font-size: 12px;
         margin-top: 16px;
