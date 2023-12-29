@@ -33,7 +33,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
 }
 main{
     background: white;
@@ -324,7 +324,7 @@ margin-right: auto;
 }
 
 footer{
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
     background: black;
     padding: 36px 36px 0px;
 }
@@ -388,7 +388,7 @@ footer{
 .footerP{
     color: #8B8B8B;
     margin-top: 12px;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
 }
 
 .footerP h2{

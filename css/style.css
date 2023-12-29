@@ -33,7 +33,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
 }
 main{
     background: white;
@@ -254,7 +254,7 @@ margin-right: auto;
 }
 
 .sobreT1{
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
     color: #292929;
     display: inline;
     grid-column-start: 1;
@@ -276,7 +276,7 @@ margin-right: auto;
 }
 
 .sobreT4, .sobreT6 {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
     color: #292929;
     grid-column-start: 3;
     grid-column-end: 3;
@@ -299,6 +299,12 @@ margin-right: auto;
         margin: auto 24px;
         padding-bottom: 180px;
     }
+    .sobreT4{
+        font-size: 26px
+    }
+    .sobre2T4{
+        font-size: 16px
+    }
     .Th1{
         text-align: right;
         padding-bottom: 50px;
@@ -307,6 +313,7 @@ margin-right: auto;
     }
     .sobreT6-m{
         display: block;
+        margin-top: 24px;
     }
     .logoimg img{
         max-width: 288px;
@@ -315,7 +322,7 @@ margin-right: auto;
 .work {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    font-family: 'Neue Haas Grotesk Display Pro';
+    font-family: 'Neue';
     width: 100%;
     max-width: 1400px;
     margin:auto;
@@ -344,21 +351,26 @@ margin-right: auto;
     max-width: 700px;
     margin: auto;
 }
+.workcard a {
+    text-decoration: none;
+}
 .workcard a button{
     cursor: pointer;
     display: flex;
     padding: 8px 24px;
     width: 161px;
     text-align: center;
+    justify-content: center;
     text-decoration: none;
     background-color: transparent;
     border: 1px solid black;
     border-radius: 32px;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
     font-size: 12px;
     font-weight: 600;
     line-height: 120%; 
     margin-top: 30px;
+    margin-bottom: 5px;
 }
 .workcard a button svg{
     margin-right: 6px;
@@ -535,7 +547,7 @@ line-height: normal;
 }
 
 footer{
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
     background: black;
     padding: 36px 36px 0px;
 }
@@ -544,7 +556,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
     background: #000;
     color: #9A9A9A;
@@ -598,7 +610,7 @@ footer{
 .footerP{
     color: #8B8B8B;
     margin-top: 12px;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Neue', sans-serif;
 }
 
 .footerP h2{
@@ -668,7 +680,6 @@ footer{
         margin-bottom: 63px;
     }
     .contactlink a{
-        width: 220px;
         font-size: 12px;
         margin-top: 16px;
     }
