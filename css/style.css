@@ -583,9 +583,9 @@ footer{
     color: #8B8B8B;
     font-size: 24px;
     width: 100%;
+    max-width: 300px;
     font-weight: 600;
     text-transform: uppercase;
-    white-space: nowrap;
 }
 .contactlink{
     display: flex;
@@ -679,7 +679,6 @@ footer{
     }
     .contact h6 {
         max-width: 120px;
-        white-space: wrap;
         margin-bottom: 64px;
     }
     .contact {
@@ -711,7 +710,7 @@ footer{
         top: 0px;
     }
     .signatureH {
-    font-size: 19vw;
+    font-size: 22vw;
     padding: 0 20px;
     margin-top: 230px;
     }
@@ -721,8 +720,8 @@ footer{
         padding: 0;
     }
     .contact h6 {
+        width: 100%;
         max-width: 110px;
-        white-space: wrap;
         margin-bottom: 64px;
     }
     .contact {
@@ -756,7 +755,7 @@ footer{
         top: 0px;
     }
     .signatureH {
-    font-size: 19vw;
+    font-size: 21.5vw;
     padding: 0 20px;
     margin-top: 230px;
     }
