@@ -372,7 +372,9 @@ margin-right: auto;
     color: #292929;
     display: flex;
     padding: 8px 24px;
-    width: 161px;
+    width: 100%;
+    max-width: 161px;
+    white-space: nowrap;
     text-align: center;
     justify-content: center;
     text-decoration: none;
@@ -642,6 +644,7 @@ footer{
     position: absolute;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
     max-width: 400px;
     display: flex;
     position: absolute;
@@ -711,6 +714,7 @@ footer{
     .contactsocials{
         position: relative;
         top: 0px;
+        padding: 0;
     }
     .signatureH {
     font-size: 22vw;
@@ -744,22 +748,12 @@ footer{
         max-width: 900px;
         padding: 0;
     }
-    .contactlink p{
-        max-width: 850px;
-
-    }
     .contactlink a{
         font-size: 12px;
         margin-top: 16px;
         max-width: 220px;
     }
-    .contactsocials{
-        position: relative;
-        top: 0px;
-    }
     .signatureH {
     font-size: 21.5vw;
-    padding: 0 20px;
-    margin-top: 230px;
     }
 }
