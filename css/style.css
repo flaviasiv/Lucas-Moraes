@@ -582,6 +582,7 @@ footer{
 .contact h6 {
     color: #8B8B8B;
     font-size: 24px;
+    width: 100%;
     font-weight: 600;
     text-transform: uppercase;
     white-space: nowrap;
@@ -602,12 +603,12 @@ footer{
     max-width: 350px;
     text-align: left;
 }
-
 .contactlink a{
     color: #8B8B8B;
     display: flex;
     border: 1px solid #8B8B8B;
-    width: 235px;
+    width: 100%;
+    max-width: 245px;
     padding: 8px 20px;
     font-size: 14px;
     line-height: 120%;
@@ -615,8 +616,9 @@ footer{
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
-    row-gap: 142px;
+    white-space: nowrap;
     margin-top: 32px;
+    text-align: left;    
 }
 .contactlink a svg{
     margin-right: 8px;
@@ -695,7 +697,7 @@ footer{
         margin-bottom: 63px;
         width: 100%;
         max-width: 900px;
-}
+    }
     .contactlink p{
         max-width: 850px;
 
@@ -719,7 +721,7 @@ footer{
         padding: 0;
     }
     .contact h6 {
-        width: 110px;
+        max-width: 110px;
         white-space: wrap;
         margin-bottom: 64px;
     }
@@ -739,7 +741,7 @@ footer{
         width: 100%;
         max-width: 900px;
         padding: 0;
-}
+    }
     .contactlink p{
         max-width: 850px;
 
@@ -747,6 +749,7 @@ footer{
     .contactlink a{
         font-size: 12px;
         margin-top: 16px;
+        max-width: 220px;
     }
     .contactsocials{
         position: relative;
