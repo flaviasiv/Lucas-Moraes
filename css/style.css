@@ -673,7 +673,10 @@ footer{
     background: black;
     font-size: 22vw;
 }
+.h6footer2{display: none;}
 @media screen and (max-width:900px) {
+    .h6footer1{display: none;}
+    .h6footer2{display: block;}
     footer{
         padding: 0;
     }
