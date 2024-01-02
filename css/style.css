@@ -371,7 +371,7 @@ margin-right: auto;
     cursor: pointer;
     color: #292929;
     display: flex;
-    padding: 8px 24px;
+    padding: 9px 24px 8px;
     width: 100%;
     max-width: 161px;
     white-space: nowrap;
@@ -389,8 +389,9 @@ margin-right: auto;
     margin-bottom: 5px;
 }
 .workcard a button svg{
-    margin-right: 6px;
-    max-height: 13px;
+    max-height: 15px;
+    margin: -2px 0;
+    margin-right: 14px;
 }
 .workT1 {
     display: grid;
