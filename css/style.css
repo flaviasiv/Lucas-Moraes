@@ -388,10 +388,9 @@ margin-right: auto;
     margin-top: 30px;
     margin-bottom: 5px;
 }
-.workcard a button img{
+.workcard a button svg{
     margin-right: 6px;
-    max-width: 19px;
-    height: 14px;
+    max-height: 13px;
 }
 .workT1 {
     display: grid;
