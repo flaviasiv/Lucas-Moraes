@@ -368,45 +368,7 @@ header{
         font-size: 14px
     }
 }
-.printsgrid{
-    width: 100%;
-    max-width: 1500px;
-    margin: auto;
-    height: auto;
-}
-.printsgrid .grid2{
-    float: right;
-    height: 100%;
-    margin: auto 40px;
-}
-.grid1 {
-    margin: auto 50px;
-}
-@media screen and (max-width:900px) {
-    .printsgrid{
-        width: 100%;
-        max-width: 1500px;
-        margin: auto;
-        margin-bottom: 1200px;
-    }
-    .printsgrid .grid2{
-        float: right;
-        height: 100%;
-        margin: auto 24px;
-        margin-top: 16px;
-    }
-    .grid1 {
-        margin: auto 24px;
-    }
-    .grid1 img:first-child, .grid2 img:first-child {
-        float: right;
-        margin: auto;
-        margin-bottom: 16px;
-    }
-
-}
-
-.frames1 {
+.frames1, .frames2, .frames3, .frames4 {
     width: 100%;
     max-width: 9999px;
     margin: auto;
@@ -419,11 +381,6 @@ header{
     margin: auto;
 }
 .frames2{
-    width: 100%;
-    max-width: 9999px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
     margin-top: 110px;
 }
 .frames2 img{
@@ -434,7 +391,18 @@ header{
 .frame2-2 img:last-child{
     margin-top: 32px;
 }
-.frames1-1{
+.frames3 img{
+    width: 100%;
+    max-width: 9999px;
+    margin: auto;
+}
+.frames4 .img-4-1{
+    width: 100%;
+    max-width: 668px;
+    margin: auto;
+}
+.frames4 .img-4-1{
+    max-width: 813px;
 }
 swiper-container {
 margin-left: auto;
@@ -458,13 +426,11 @@ margin-right: auto;
   align-items: center;
   width: 390px;
 }
-
-
 .others{
     width: 100%;
     max-width: 9999px;
     margin: auto;
-    margin-top: 610px;
+    margin-top: 110px;
 }
 .others h1{
     font-family: 'Neue';
