@@ -195,6 +195,7 @@ header{
     width: 100%;
     max-width: 9909px;
     margin: auto;
+    height: 80%;
 }
 .container{
     padding: 120px 50px;
@@ -247,7 +248,7 @@ header{
     font-size: 16px;
     font-style: normal;
     margin: -60px auto;
-    margin-left: 40px;
+    margin-left: 55px;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
@@ -394,6 +395,7 @@ header{
 }
 .frame2-2 img:last-child{
     margin-top: 32px;
+    margin-bottom: 160px;
 }
 .frames3 img{
     width: 100%;
@@ -428,6 +430,7 @@ header{
     border-bottom: 1px solid #000;
     padding: 30px 0;
     scroll-behavior: smooth;
+    margin-top: 100px;
 }
 swiper-container {
 margin-left: auto;

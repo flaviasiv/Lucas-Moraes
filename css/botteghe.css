@@ -195,6 +195,7 @@ header{
     width: 100%;
     max-width: 9909px;
     margin: auto;
+    height: 80%;
 }
 .container{
     padding: 120px 50px;
@@ -394,6 +395,7 @@ header{
 }
 .frame2-2 img:last-child{
     margin-top: 32px;
+    margin-bottom: 160px;
 }
 .frames3 img{
     width: 100%;
