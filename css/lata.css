@@ -195,7 +195,9 @@ header{
     width: 100%;
     max-width: 9909px;
     margin: auto;
-    height: 80%;
+    object-fit: cover;
+    height: 100%;
+    max-height: 600px;
 }
 .container{
     padding: 120px 50px;
