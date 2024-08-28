@@ -1,0 +1,171 @@
+.seta{
+    background-color: white;
+    width: 100%;
+    max-width: 3999px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #000;
+    margin-top: 130px;
+}
+.seta a{
+    width: 100%;
+    max-width: 9999px;
+    margin: auto;
+}
+footer{
+    font-family: 'Neue', sans-serif;
+    background: black;
+    padding: 36px 36px 0px;
+}
+.contact {
+    font-family: 'Neue', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    background: #000;
+    color: #9A9A9A;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.contact h6 {
+    color: #8B8B8B;
+    font-size: 24px;
+    width: 100%;
+    max-width: 300px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contactlink{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    text-align: right;
+    margin-right: 0;
+    right: 0;
+    padding-right: 50px;
+    float: right;
+}
+.contactlink p{
+    max-width: 350px;
+    text-align: left;
+}
+.contactlink a{
+    color: #8B8B8B;
+    display: flex;
+    border: 1px solid #8B8B8B;
+    width: 100%;
+    max-width: 150px;
+    padding: 8px 20px;
+    font-size: 14px;
+    line-height: 120%;
+    border-radius: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 32px;
+    align-items: center;
+    gap: 16px;
+}
+.signatureH {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #282828;
+    margin: 0px auto;
+    padding: 0px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 100%;
+    width: 100vw;
+    background: black;
+    font-size: 22.5vw;
+}
+.h6footer2{display: none;}
+@media screen and (max-width:900px) {
+    .h6footer1{display: none;}
+    .h6footer2{display: block;}
+    footer{
+        padding: 0;
+    }
+    .contact h6 {
+        max-width: 120px;
+        margin-bottom: 64px;
+    }
+    .contact {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        white-space: wrap;
+        height: 390px;
+        padding-top: 100px;
+        padding: 100px 24px;
+    }
+    .contactlink{
+        display: flex;
+        position: relative;
+        margin-bottom: 63px;
+        width: 100%;
+        max-width: 900px;
+    }
+    .contactlink p{
+        max-width: 850px;
+
+    }
+    .contactlink a{
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    .contactsocials{
+        position: relative;
+        top: 0px;
+        padding: 0;
+    }
+    .signatureH {
+        font-size: 22vw;
+        padding: 0 20px;
+        margin-top: 230px;
+    }
+}
+@media screen and (max-width:790px) {
+    footer{
+        padding: 0;
+    }
+    .contact h6 {
+        width: 100%;
+        max-width: 110px;
+        margin-bottom: 64px;
+    }
+    .contact {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        white-space: wrap;
+        height: 390px;
+        padding-top: 100px;
+        padding: 100px 24px;
+    }
+    .contactlink{
+        display: flex;
+        position: relative;
+        margin-bottom: 63px;
+        width: 100%;
+        max-width: 900px;
+        padding: 0;
+    }
+    .contactlink a{
+        font-size: 12px;
+        margin-top: 16px;
+        max-width: 220px;
+    }
+    .signatureH {
+    font-size: 21.5vw;
+    }
+}
