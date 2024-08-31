@@ -299,7 +299,7 @@ main{
     position: absolute;
     right: 0;
 }
-.frames3{
+.frames3, .frames2{
     display: flex;
 }
 .frames3 img{
