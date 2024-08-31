@@ -111,7 +111,6 @@ footer{
     .contactlink{
         display: flex;
         position: relative;
-        margin-bottom: 63px;
         width: 100%;
         max-width: 900px;
     }
@@ -131,7 +130,6 @@ footer{
     .signatureH {
         font-size: 22vw;
         padding: 0 20px;
-        margin-top: 230px;
     }
 }
 @media screen and (max-width:790px) {
@@ -155,7 +153,6 @@ footer{
     .contactlink{
         display: flex;
         position: relative;
-        margin-bottom: 63px;
         width: 100%;
         max-width: 900px;
         padding: 0;
@@ -163,7 +160,6 @@ footer{
     .contactlink a{
         font-size: 12px;
         margin-top: 16px;
-        max-width: 220px;
     }
     .signatureH {
     font-size: 21.5vw;

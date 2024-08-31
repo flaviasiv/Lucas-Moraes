@@ -190,58 +190,6 @@ main{
     line-height: normal;
 }
 #h6-m{display: none;}
-@media screen and (max-width:900px) {
-    .aboutgrid {
-        display: flex;
-        flex-direction: column;
-        margin: 60px auto;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    #aboutgrid1 h1{
-        font-size: 32px;
-        font-weight: 500;
-        margin: 0;
-        margin-bottom: 16px;
-    }
-    #h6-w{display: none;}
-    #h6-m{
-        display: block;
-        font-size: 16px;
-        margin: 0px auto;
-        margin-left: 0;
-        padding-left: 0px;
-        font-weight: 600;
-        margin-bottom: 120px;
-    }
-    #aboutgrid1 h5, .about h6{
-        margin-bottom: 64px;
-    }
-    #aboutgrid1 p, .about p{
-        font-family: 'Neue', sans-serif;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 400;        
-        line-height: 120%; 
-    }
-    .about2 p{
-        font-family: 'Neue', sans-serif;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 120%;
-    }
-    .aboutgrid h5{
-        font-size: 14px;
-        margin-bottom: 32px;
-    }
-    .aboutgrid h6{
-        margin-bottom: 64px;
-        text-align: right;
-    }
-    #aboutgrid1 #p2-1{
-        font-size: 14px
-    }
-}
 .printsgrid{
     width: 100%;
     max-width: 1500px;
@@ -255,29 +203,6 @@ main{
 }
 .grid1 {
     margin: auto 50px;
-}
-@media screen and (max-width:900px) {
-    .printsgrid{
-        width: 100%;
-        max-width: 1500px;
-        margin: auto;
-        margin-bottom: 1200px;
-    }
-    .printsgrid .grid2{
-        float: right;
-        height: 100%;
-        margin: auto 24px;
-        margin-top: 16px;
-    }
-    .grid1 {
-        margin: auto 24px;
-    }
-    .grid1 img:first-child, .grid2 img:first-child {
-        float: right;
-        margin: auto;
-        margin-bottom: 16px;
-    }
-
 }
 .frames1 {
     width: 100%;
@@ -403,4 +328,80 @@ margin-right: auto;
     font-style: normal;
     font-weight: 600;
     margin: 120px 0 64px 150px;
+}
+
+@media screen and (max-width:900px) {
+    .aboutgrid {
+        display: flex;
+        flex-direction: column;
+        margin: 60px auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #aboutgrid1 h1{
+        font-size: 32px;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    #h6-w{display: none;}
+    #h6-m{
+        display: block;
+        font-size: 16px;
+        margin: 0px auto;
+        margin-left: 0;
+        padding-left: 0px;
+        font-weight: 600;
+        margin-bottom: 120px;
+    }
+    #aboutgrid1 h5, .about h6{
+        margin-bottom: 64px;
+    }
+    #aboutgrid1 p, .about p{
+        font-family: 'Neue', sans-serif;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;        
+        line-height: 120%; 
+    }
+    .about2 p{
+        font-family: 'Neue', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+    }
+    .aboutgrid h5{
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .aboutgrid h6{
+        margin-bottom: 64px;
+        text-align: right;
+    }
+    #aboutgrid1 #p2-1{
+        font-size: 14px
+    }
+    .printsgrid{
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+        margin-bottom: 1200px;
+    }
+    .printsgrid .grid2{
+        float: right;
+        height: 100%;
+        margin: auto 24px;
+        margin-top: 16px;
+    }
+    .grid1 {
+        margin: auto 24px;
+    }
+    .grid1 img:first-child, .grid2 img:first-child {
+        float: right;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+    .frames2 img, .frames4 img, .frames3 img, .frames5 img{
+        width: 100%;
+    }
 }
