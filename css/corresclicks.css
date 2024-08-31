@@ -71,6 +71,16 @@ main{
 #aboutgrid1{
     grid-template-columns: 1fr 1fr 1fr;
 }
+#aboutgrid2{
+    grid-template-rows: 770px;
+}
+#aboutgrid3{
+    margin-bottom: 250px;
+}
+#aboutgrid3 .aboutgrid{
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr;
+}
 #aboutgrid1 h1{
     grid-column-start: 1;
     grid-row-start: 1;
@@ -282,10 +292,16 @@ main{
     margin: auto;
 }
 .frames1-1{
-    padding: 10vw;
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 124px 0 124px 0;
 }
+.frames1-1 img{width: 812px}
+.frames1-3 img{width: 900px;margin: auto;}
 .frames1-2{
-    gap: 100px;
+    gap: 200px;
 }
 .frames-l{
     position: relative;
@@ -301,6 +317,17 @@ main{
 }
 .frames3, .frames2{
     display: flex;
+}
+.frames2{
+    position: relative;
+    height: 950px;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+.frames2 img{
+    position: absolute;
+    right: 0;
 }
 .frames3 img{
     width: 50vw;
