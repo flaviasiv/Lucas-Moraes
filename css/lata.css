@@ -297,12 +297,12 @@ margin-right: auto;
     width: 100%;
     max-width: 9999px;
     margin: auto;
-    margin-top: 610px;
 }
 .others h1{
     font-family: 'Neue';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    margin: 120px 0 64px 150px;
+    margin: 0px 0 64px 150px;
+    color: #000;
 }
