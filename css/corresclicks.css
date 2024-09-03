@@ -404,7 +404,29 @@ margin-right: auto;
         margin: auto;
         margin-bottom: 16px;
     }
-    .frames2 img, .frames4 img, .frames3 img, .frames5 img{
+    .frames2 img, .frames4 img, .frames1-1 img, .frames5 img, video{
         width: 100%;
+    }
+    .ab-vid{
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        padding: 0;
+        position: absolute;
+        margin-top: 400px;
+    }
+    #aboutgrid3{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 650px;
+    }
+    #aboutgrid3 .aboutgrid{
+        display: flex;
+        flex-direction: column;
+        margin: 60px auto;
+        padding: 0;
+    }
+    #aboutgrid3 .aboutgrid h5, 
+    #aboutgrid3 .aboutgrid p{padding-left: 20px;
     }
 }
