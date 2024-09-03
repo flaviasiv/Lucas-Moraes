@@ -50,8 +50,10 @@ main{
     width: 100%;
     max-width: 1500px;
     margin: auto;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 120px 0;
 }
 .aboutgrid {
     display: grid;
@@ -67,7 +69,6 @@ main{
 .about2{
     color: #909090;
     font-size: 12px;
-    margin-top: 64px;
 }
 #aboutgrid1{
     grid-template-columns: 1.8fr 0.2fr 1fr;
@@ -84,7 +85,7 @@ main{
     word-wrap: break-word;      /* IE 5.5-7 */
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
     white-space: pre-wrap;     
-    margin: 0 auto;
+    margin: 0 100px auto;
     color: #000;
 }
 #h6-w{ /* ajustar a responsividade ao alcançar o width da tela a partir de 1400px */
@@ -93,7 +94,7 @@ main{
     grid-row-start: 1;
     font-size: 16px;
     font-style: normal;
-    margin: -20px auto;
+    margin: -100px auto;
     margin-left: 0;
     padding-left: 95px;
     font-weight: 600;
@@ -191,16 +192,57 @@ main{
     max-width: 9999px;
     margin: auto;
 }
-.frames1 .img1 {
-    margin-top: 110px;
-}
 .frames2{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    gap: 100px;
+    align-items: center;
     width: 100%;
-    max-width:900px;
+    max-width:100vw;
     margin: 100px auto;
+}
+.frames2 img{
+    display: flex;
+width: 595px;
+height: 334.688px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.frames2 video{
+    width: 431px;
+height: 554px;
+flex-shrink: 0;
+}
+.framesgap{
+    gap: 120px;
+}
+.vd-br{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    margin: 100px auto;
+}
+.vd-br video{
+    width: 100%;
+    max-width: 904px;
+    margin: auto;
+}
+.vd-br-phone{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    margin: auto;
+
+    padding: 100px 0;
+    background: #4860C8;
+}
+.vd-br-phone video{
+    width: 100%;
+    max-width:443px;
+    border-radius: 24px
 }
 swiper-container {
 margin-left: auto;
@@ -310,7 +352,17 @@ margin-right: auto;
         margin: auto;
         margin-bottom: 16px;
     }
-    .frames2 img, .frames4 img, .frames3 img, .frames5 img{
+    .frames2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+        width: 100%;
+        max-width:100vw;
+        margin: 100px auto;
+    }
+    .frames1 img, .frames1 video, .frames2 img, .frames2 video{
         width: 100%;
     }
 }
