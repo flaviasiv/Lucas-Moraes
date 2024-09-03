@@ -36,13 +36,13 @@ body{
 main{
     background: white;
 }
-.cover img{
+.cover video{
     width: 100%;
     max-width: 9909px;
     margin: auto;
     object-fit: cover;
     height: 100%;
-    max-height: 600px;
+    max-height: 900px;
     object-position: center;
 }
 .about{
@@ -158,7 +158,7 @@ main{
     margin-top: 30px;
     margin-left: 10px;
 }
-.h-i img{
+.h-i video{
  max-width: 226px;
 }
 .aboutgrid h5{
@@ -199,13 +199,10 @@ main{
     display: flex;
     flex-direction: column;
 }
-.frames1 img{
+.frames1 img, .frames1 video{
     width: 100%;
     max-width: 9999px;
     margin: auto;
-}
-.frames1-1{
-    padding: 10vw;
 }
 .frames-l{
     position: relative;
@@ -215,15 +212,25 @@ main{
     margin: auto;
     height: 750px;
 }
-.frames-l img{
+.video-r{
     position: absolute;
     right: 0;
+    max-width: 649px;
+    max-height: 649px;
+    border-radius: 32px;
 }
 .frames3{
+    position: relative;
     display: flex;
 }
+.frames3 img, .frames3 video{
+    width: 100%;
+    max-width: 50vw;
+}
 .frames3 img{
-    width: 50vw;
+  width: 50vw;  /*width of parent container*/
+  height: auto; /*height of parent container*/
+  position: relative;
 }
 .gif-b{
     padding: 5vw;
@@ -245,6 +252,11 @@ main{
 .frames5 img{
     position: absolute;
     right: 0;
+}
+.vd-br, .frames1-sm{
+    border-radius: 39px;
+    max-width: 1200px;
+    margin: 100px auto;
 }
 .mySwiper2{
     position:relative;
@@ -368,7 +380,7 @@ margin-right: auto;
         margin: auto;
         margin-bottom: 16px;
     }
-    .frames2 img, .frames4 img, .frames5 img{
+    .frames2 img, .frames4 video, .frames5 img{
         width: 100%;
     }
 }
