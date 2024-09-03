@@ -211,7 +211,7 @@ main{
     display: flex;
     flex-direction: column;
 }
-.frames1 img{
+.frames1 img, video{
     width: 100%;
     max-width: 9999px;
     margin: auto;
@@ -226,7 +226,7 @@ main{
 .frames1-1 img{width: 812px}
 .frames1-3 img{width: 900px;margin: auto;}
 .frames1-2{
-    gap: 200px;
+    gap: 220px;
 }
 .frames-l{
     position: relative;
@@ -277,6 +277,9 @@ main{
 .frames5 img{
     position: absolute;
     right: 0;
+}
+.ab-vid{
+    max-width: 440px;
 }
 .mySwiper2{
     position:relative;
