@@ -219,7 +219,7 @@ main{
 }
 .printsgrid{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: auto;
     height: auto;
 }
@@ -229,28 +229,32 @@ main{
     margin: auto 40px;
 }
 .grid1 {
-    margin: auto 50px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 @media screen and (max-width:900px) {
     .printsgrid{
         width: 100%;
         max-width: 1500px;
         margin: auto;
-        margin-bottom: 1200px;
     }
     .printsgrid .grid2{
         float: right;
         height: 100%;
-        margin: auto 24px;
+        margin: auto 16px;
         margin-top: 16px;
+        margin-bottom: 30px;
     }
     .grid1 {
-        margin: auto 24px;
+        margin: auto;
     }
-    .grid1 img:first-child, .grid2 img:first-child {
+    .grid1 img{
+        width: 100%;
+    }
+    .img-mr {
         float: right;
         margin: auto;
-        margin-bottom: 16px;
+        margin-bottom: 5px;
     }
 
 }
