@@ -232,7 +232,7 @@ main{
     margin: auto;
     margin-bottom: 50px;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
     .printsgrid{
         width: 100%;
         max-width: 1500px;
@@ -301,7 +301,6 @@ margin-right: auto;
     width: 100%;
     max-width: 9999px;
     margin: auto;
-    margin-top: 610px;
 }
 .others h1{
     font-family: 'Neue';
