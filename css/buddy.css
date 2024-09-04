@@ -247,7 +247,7 @@ main{
     margin: auto;
     padding:0 0 130px;
     position: relative;
-    height: 50vw;
+    height: 1100px;
 }
 .frames5 img{
     position: absolute;
@@ -274,6 +274,20 @@ main{
 }
 .swiper2 img{
     width: 100vw;
+}
+.cred{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.cred p{
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 120%; /* 14.4px */
+}
+.cred a{
+    color: inherit;
 }
 swiper-container {
 margin-left: auto;
@@ -380,6 +394,8 @@ margin-right: auto;
         margin: auto;
         margin-bottom: 16px;
     }
+    .frames5{height: 100%;}
+    .frames5 img{position: relative;}
     .frames2 img, .frames4 video, .frames5 img{
         width: 100%;
     }
