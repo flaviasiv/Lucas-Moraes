@@ -21,7 +21,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -32,6 +31,7 @@ html{
 }
 body{
     font-family: 'Neue', sans-serif;
+    font-family: "Neue Haas Grotesk Display Pro";
 }
 main{
     background: white;
@@ -126,7 +126,6 @@ margin-right: auto;
     grid-column-start: 2;
     grid-column-end: 2;
     font-family: 'CommitMono', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
@@ -139,7 +138,6 @@ margin-right: auto;
     grid-column-start: 3;
     grid-column-end: 3;
     font-weight: 500;
-    font-style: normal;
     font-size: 16px;
     line-height: 120%;
 }
@@ -345,7 +343,6 @@ line-height: normal;
 .cardsinfo h5{
     margin-top: 16px;
     color: #9A9A9A;
-    font-style: normal;
     font-weight: 500;
     line-height: 120%; 
 }
@@ -353,9 +350,9 @@ line-height: normal;
     bottom: 0;
     position: absolute;
     font-size: 12px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%;
+    max-width: 307px;
 }
 .imgwork-m{display: none;}
 @media screen and (max-width:900px) {
