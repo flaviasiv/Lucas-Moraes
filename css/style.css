@@ -199,7 +199,8 @@ margin-right: auto;
     display: grid;
     row-gap: 160px;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1500px;
+    padding: 0 50px;
     color: #292929;
     margin:auto;
 }
@@ -242,7 +243,6 @@ margin-right: auto;
 .workT1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 74px;
 }
 
 .workT1 a {
@@ -251,7 +251,7 @@ margin-right: auto;
     align-items: center;
 }
 
-.workT1 a img {
+.workT1 a video {
     grid-column-start: 2;
     grid-column-end: 2;
 }
@@ -259,7 +259,6 @@ margin-right: auto;
 .work2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 74px;
 }
 
 .work2 a {
@@ -270,7 +269,6 @@ margin-right: auto;
 .work3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 74px;
 }
 .work3 .card3img{
     grid-column-start: 2;
@@ -284,7 +282,6 @@ grid-row-start: 1;
 .work4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 74px;
 }
 
 .work4 a {
@@ -295,7 +292,6 @@ grid-row-start: 1;
 .work5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 74px;
 }
 
 .work5 a {
@@ -306,7 +302,6 @@ grid-row-start: 1;
 .work6 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 74px;
 }
 .work6 .cardsinfo{
     grid-column-start: 2;
@@ -321,7 +316,6 @@ grid-row-start: 1;
 .work7 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 74px;
     margin-bottom: 160px;
 }
 
@@ -353,6 +347,11 @@ line-height: normal;
     font-weight: 600;
     line-height: 120%;
     max-width: 307px;
+}
+.workcard video{
+    display: flex;
+    justify-content: end;
+    width: 340px;
 }
 .imgwork-m{display: none;}
 @media screen and (max-width:900px) {

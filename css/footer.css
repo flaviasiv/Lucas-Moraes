@@ -6,13 +6,16 @@
     justify-content: center;
     text-align: center;
     padding: 30px 0;
-    border-top: 1px solid #000;
-    margin-top: 130px;
+    border-bottom: 1px solid #000;
 }
 .seta a{
     width: 100%;
     max-width: 9999px;
     margin: auto;
+}
+.setah{
+    border-top: 1px solid #000;
+    margin-top: 150px;
 }
 footer{
     font-family: 'Neue', sans-serif;
