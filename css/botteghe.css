@@ -148,7 +148,7 @@ main{
     .aboutgrid {
         display: flex;
         flex-direction: column;
-        margin: 60px auto;
+        margin: auto;
     }
     .container{
         padding: 120px 45px 120px 16px;
@@ -243,7 +243,10 @@ main{
     max-width: 9999px;
     margin: auto;
 }
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1300px) { 
+.frame2-2{
+    padding: 120px 10px;
+}
     .frames4{
         flex-direction: column;
         max-width: 999px;
