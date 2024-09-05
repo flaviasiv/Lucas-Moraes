@@ -94,10 +94,10 @@ footer{
 .h6footer2{display: none;}
 /* swiper pag works - //OUTROS PROJETOS */
 swiper-container {
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
 }
 .mySwiper1{
     position:relative;
@@ -126,11 +126,15 @@ height: 100%;
     margin: auto;
 }
 .others h1{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
     font-family: 'Neue';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    margin: 120px 0 64px 150px;
+    padding: 120px 0 64px 0;
 }
 a{
     color: inherit;

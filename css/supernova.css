@@ -225,7 +225,7 @@ main{
 .printsgrid .grid2{
     float: right;
     height: 100%;
-    margin: auto 40px;
+    margin: 40px auto 200px;
 }
 .grid1 {
     margin: auto;
