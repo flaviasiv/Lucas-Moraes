@@ -202,43 +202,6 @@ main{
     max-width:900px;
     margin: 100px auto;
 }
-swiper-container {
-margin-left: auto;
-margin-right: auto;
-}
-.mySwiper1{
-    position:relative;
-    display: flex;
-    width: 100%;
-    max-width: 9900px;
-    margin: auto;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    cursor: grab;
-}
-.swiper1 {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 390px;
-}
-
-.others{
-    width: 100%;
-    max-width: 9999px;
-    margin: auto;
-}
-.others h1{
-    font-family: 'Neue';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    margin: 0px 0 64px 150px;
-    color: #000;
-}
-
 @media screen and (max-width:900px) {
     .aboutgrid {
         display: flex;
