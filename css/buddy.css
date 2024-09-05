@@ -76,7 +76,6 @@ main{
     grid-column-start: 1;
     grid-row-start: 1;
     font-size: 74px;
-    font-style: normal;
     font-weight: 500;
     line-height: 92%; /* 68.08px */
     text-transform: uppercase;
@@ -91,7 +90,6 @@ main{
     grid-column-start: 1;
     grid-row-start: 1;
     font-size: 16px;
-    font-style: normal;
     margin: -20px auto;
     margin-left: 5px;
     font-weight: 600;
@@ -103,7 +101,6 @@ main{
     grid-column-start: 2;
     grid-column-end: 2;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
 }
 #about2 h5{
@@ -111,7 +108,6 @@ main{
     grid-column-start: 2;
     grid-column-end: 2;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
 
 }
@@ -119,7 +115,6 @@ main{
     grid-column-start: 3;
     grid-column-end: 3;
     font-size: 12px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
@@ -127,7 +122,6 @@ main{
     grid-column-start: 1;
     grid-column-end: 2;
     font-size: 74px;
-    font-style: normal;
     font-weight: 500;
     line-height: 92%; /* 68.08px */
     text-transform: uppercase;
@@ -141,12 +135,18 @@ main{
     grid-column-start: 1;
     grid-column-end: 2;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
 }
 .tipografia h6{    
+    color: #292929;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 120%; /* 12px */
+}
+label{
     color: #292929;
     font-family: "Neue Haas Grotesk Display Pro";
     font-size: 10px;
@@ -165,16 +165,16 @@ main{
     grid-column-start: 2;
     grid-column-end: 2;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
 }
 .aboutgrid p{
     grid-column-start: 3;
     grid-column-end: 3;
-    font-size: 12px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.about1{
+    font-size: 16px;
 }
 #h6-m{display: none;}
 .printsgrid{
@@ -257,8 +257,11 @@ main{
 }
 .vd-br, .frames1-sm{
     border-radius: 39px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 100px auto;
+}
+.frames1-sm{
+    padding: 0 50px;
 }
 .mySwiper2{
     position:relative;
@@ -325,7 +328,6 @@ main{
     #aboutgrid1 p, .about p{
         font-family: 'Neue', sans-serif;
         font-size: 26px;
-        font-style: normal;
         font-weight: 400;        
         line-height: 120%; 
     }
@@ -382,6 +384,23 @@ main{
     }
     .about-m-bd{
         margin-top: 0;
+    }
+    .vd-br, .frames1-sm{
+        border-radius: 20px;
+    }
+    .frames-l{
+        margin: 0 auto 50px;
+        padding: 0 10px;
+        height: 100%;
+    }
+    .video-r{
+        position: relative;
+        width: 100%;
+        max-height: 649px;
+        border-radius: 24px;
+    }
+    #h-i{
+        text-align: left;
     }
     .frames5{height: 100%;}
     .frames5 img{position: relative;}
