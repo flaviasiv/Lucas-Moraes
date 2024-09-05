@@ -317,4 +317,10 @@ flex-shrink: 0;
         height: 100%;
         object-fit: cover;
     }
+    .vd-br-phone, .vd-br{
+        padding: 80px 10px;
+    }
+    .vd-br{
+        margin: auto;
+    }
 }
