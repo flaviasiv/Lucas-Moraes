@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'CommitMono';
-    src: 
-    local('CommitMono');
-    src: url('../fonts/CommitMono-Regular.eot') format('truetype');
-    src: url('../fonts/CommitMono-Regular.eot?#iefix') format('embedded-opentype'); 
-    src:url('../fonts/CommitMono-Regular.eot'),
-         url('../fonts/CommitMono-Regular.woff') format('woff'),
-         url('../fonts/CommitMono-Bold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'CommitMono';
+  src: 
+  local('CommitMono');
+  src: url('../fonts/CommitMono-Regular.eot') format('truetype');
+  src: url('../fonts/CommitMono-Regular.eot?#iefix') format('embedded-opentype'); 
+  src:url('../fonts/CommitMono-Regular.eot'),
+       url('../fonts/CommitMono-Regular.woff') format('woff'),
+       url('../fonts/CommitMono-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
@@ -19,8 +19,9 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    font-family: "Neue";
+    font-family: 'Neue', sans-serif;
     background: white;
-    font-family: "Neue Haas Grotesk Display Pro";
 }
 main{
     background: white;
@@ -53,6 +54,7 @@ main{
     text-align: center;
     text-transform: uppercase;
     color: #9A9A9A;
+    font-family: 'Neue', sans-serif;
 }
 swiper-container {
 margin-left: auto;
@@ -101,6 +103,7 @@ margin-right: auto;
 }
 
 .sobreT1{
+    font-family: 'Neue', sans-serif;
     color: #292929;
     display: inline;
     grid-column-start: 1;
@@ -121,6 +124,7 @@ margin-right: auto;
 }
 
 .sobreT4, .sobreT6 {
+    font-family: 'Neue', sans-serif;
     color: #292929;
     grid-column-start: 3;
     grid-column-end: 3;
@@ -166,6 +170,7 @@ margin-right: auto;
 .work {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Neue';
     width: 100%;
     max-width: 1400px;
     margin:auto;
@@ -212,6 +217,7 @@ margin-right: auto;
     background-color: transparent;
     border: 1px solid black;
     border-radius: 32px;
+    font-family: 'Neue', sans-serif;
     font-size: 12px;
     font-weight: 600;
     line-height: 120%; 
