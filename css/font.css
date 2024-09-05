@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Neue';
+    src: 
+    local('Neue Haas Grotesk Display Pro');
+    src: url('../NeueHaasDisplay-Roman.ttf') format('truetype');
+    src: url('../NHAASGROTESKTXPRO65MD.eot?#iefix') format('embedded-opentype'); 
+    src:url('../NeueHaasDisplay-Roman.eot'),
+         url('../NeueHaasDisplay-Roman.woff') format('woff'),
+         url('../NeueHaasDisplay-Roman.woff2') format('woff2'),
+         url('../NeueHaasDisplay-Roman.svg') format('svg');
+}
+@font-face {
+  font-family: 'CommitMono';
+  src: 
+  local('CommitMono');
+  src: url('../CommitMono-Regular.ttf') format('truetype');
+  src: url('../CommitMono-Regular.eot?#iefix') format('embedded-opentype'); 
+  src:url('../CommitMono-Regular.eot'),
+       url('../CommitMono-Regular.woff') format('woff'),
+       url('../CommitMono-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    font-family: 'Neue', sans-serif;
+    background: white;
+    font-family: "Neue Haas Grotesk Display Pro";
+}

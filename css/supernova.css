@@ -84,7 +84,7 @@ main{
     word-wrap: break-word;      /* IE 5.5-7 */
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
     white-space: pre-wrap;     
-    margin: 0 auto;
+    margin: 0;
     color: #000;
 }
 #h6-w{ /* ajustar a responsividade ao alcançar o width da tela a partir de 1400px */
@@ -93,9 +93,8 @@ main{
     grid-row-start: 1;
     font-size: 16px;
     font-style: normal;
-    margin: -20px auto;
-    margin-left: 0;
-    padding-left: 95px;
+    margin: -70px auto;
+    margin-left: 5px;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;

@@ -31,6 +31,7 @@ html{
 }
 body{
     font-family: 'Neue', sans-serif;
+    background: white;
     font-family: "Neue Haas Grotesk Display Pro";
 }
 main{
@@ -355,6 +356,9 @@ line-height: normal;
 }
 .imgwork-m{display: none;}
 @media screen and (max-width:900px) {
+    .worksgrid{
+        padding: 0;
+    }
     .work {
         position: relative;
         display: flex;
