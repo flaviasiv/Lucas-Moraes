@@ -137,6 +137,9 @@ margin-right: auto;
     color: #9A9A9A
 }
 .sobreT6-m{display:none;}
+.Th1{
+font-family: 'Neue', sans-serif;
+}
 @media screen and (max-width:900px) {
     .sobre {
         position: relative;
@@ -154,6 +157,7 @@ margin-right: auto;
         font-size: 16px
     }
     .Th1{
+    font-family: 'Neue', sans-serif;
         text-align: right;
         padding-bottom: 50px;
     }
