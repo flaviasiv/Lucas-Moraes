@@ -119,6 +119,7 @@ swiper-container {
   flex-direction: column;
   gap: 10px;
   cursor: pointer;
+  padding: 0 20px
 }
 .others{
     width: 100%;
@@ -181,6 +182,10 @@ a{
     .signatureH {
         font-size: 22vw;
         padding: 0 20px;
+    }
+    .swiper1 {
+      width: 340px;
+      padding: 0 10px
     }
 }
 @media screen and (max-width:790px) {
